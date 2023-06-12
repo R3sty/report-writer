@@ -1,10 +1,11 @@
+import ReportWriter from "./pages/reportWriter"
 
 function App() {
 
   return (
     <>
-      <div className="text-red-300">
-        App works!
+      <div>
+        <ReportWriter/>
       </div>
     </>
   )
